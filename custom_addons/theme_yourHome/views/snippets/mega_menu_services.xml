@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="theme_yourHome.mega_menu_services" name="Mega Menu Services">
+        <section class="o_cc5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-3">
+                        <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Communauté et support</a></div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Forum et discution</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Conseils pour les parents</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>FAQ (Foire Aux Questions)</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Événements et ateliers</a></div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Webinaires éducatifs</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Concours et défis</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Clubs de lecture</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Calendrier des événements</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Suivi et évaluation</a></div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Tableau de bord des progrès</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Rapports d'apprentissage</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Outils d'évaluation</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Partenariats</a></div>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Écoles partenaires</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Programmes spéciaux</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                    <span class="fa fa-caret-right mr-2"/>
+                                    <span>Offres institutionnelles</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>
+
+<!--<record id="theme_yourHome.mega_menu_services" model="ir.ui.view">
+    <field name="name">Services Menu</field>
+    <field name="type">qweb</field>
+    <field name="key">theme_yourHome.mega_menu_services</field>
+    <field name="groups_id" eval="[(4, ref('base.group_user'))]"/>
+    <field name="arch" type="xml">
+        <t t-name="theme_yourHome.mega_menu_services" groups="base.group_user" name="Services Menu">
+            <section class="o_cc5">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-lg-3">
+                            <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Communauté et support</a></div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Forum et discution</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Conseils pour les parents</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>FAQ (Foire Aux Questions)</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Événements et ateliers</a></div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Webinaires éducatifs</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Concours et défis</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Clubs de lecture</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Calendrier des événements</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Suivi et évaluation</a></div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Tableau de bord des progrès</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Rapports d'apprentissage</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Outils d'évaluation</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="pb-2 my-2 border-bottom"><a href="/" class="h4">Partenariats</a></div>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Écoles partenaires</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Programmes spéciaux</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white d-flex align-items-center text-decoration-none">
+                                        <span class="fa fa-caret-right mr-2"/>
+                                        <span>Offres institutionnelles</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </t>
+    </field>
+</record>-->

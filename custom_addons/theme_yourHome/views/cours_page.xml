@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <data>
+        <record id="theme_yourHome.cours_page" model="website.page">
+            <field name="name">Cours</field>
+            <field name="type">qweb</field>
+            <field name="url">/cours</field>
+            <field name="is_published">True</field>
+            <field name="key">theme_yourHome.cours_page</field>
+            <field name="arch" type="xml">
+                <t name="Cours" t-name="theme_yourHome.cours_page">
+                    <t t-call="website.layout">
+                        <div class="oe_structure"/>
+                        <section>
+                            <div class="site-section-cover overlay">
+                                <div class="container">
+                                  <div class="row align-items-center ">
+                                      <div class="col-md-5">
+                                          <h1 class="mb-3 font-weight-bold text-teal">Accusamus et iusto odio dignissimos ducimus </h1>
+                                          <p>Lorem ipsum dolor sit amet, consectetur</p>
+                                          <p class="mt-5"><a href="#" class="btn btn-success py-2 btn-custom-1">En savoir plus</a></p>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="site-section">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-lg-4">
+                                    <div class="block-2 red">
+                                      <span class="wrap-icon">
+                                        <span><img class="box-image" src="/theme_yourHome/static/src/img/reading.jpg" alt="Monde des mots "/></span>
+                                      </span>
+                                      <h2>Monde des mots</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt, mollitia, hic enim id culpa.</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4">
+                                    <div class="block-2 yellow">
+                                      <span class="wrap-icon">
+                                        <span> <img class="box-image" src="/theme_yourHome/static/src/img/math2.png" alt="Our experience"/> </span>
+                                      </span>
+                                      <h2>Royaume des maths</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt, mollitia, hic enim id culpa.</p>
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-4">
+                                    <div class="block-2 teal">
+                                      <span class="wrap-icon">
+                                        <span> <img class="box-image" src="/theme_yourHome/static/src/img/cultu.jpg" alt="Big fun for kids"/></span>
+                                      </span>
+                                      <h2>Quête culturelle</h2>
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt, mollitia, hic enim id culpa.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="site-section bg-light">
+                              <div class="container">
+                                <div class="row">
+                                  <div class="col-md-6 mb-5 mb-md-0">
+                                    <img src="/theme_yourHome/static/src/img/cours1.jpg" alt="Image" class="img-fluid"/>
+                                  </div>
+                                  <div class="col-md-5 ml-auto pl-md-5">
+                                    <span class="text-cursive h5 text-red">About Us</span>
+                                    <h3 class="text-black">Bring Fun Life To Your Kids</h3>
+                                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et harum, magni sequi nostrum maxime enim.</span><span>Magnam id atque dicta deleniti, ipsam ipsum distinctio. Facilis praesentium voluptatem accusamus, earum veritatis, laudantium.</span></p>
+                                    <p class="mt-5"><a href="#" class="btn btn-warning btn-custom-1">More About Us</a></p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </section>
+                        <div class="oe_structure"/>
+                    </t>
+                </t>
+            </field>
+        </record>
+    </data>
+</odoo>

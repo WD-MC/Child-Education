@@ -1,0 +1,98 @@
+
+ .title {
+    text-align: center;
+    padding-top: 35px;
+ }
+ .title h3{
+    font-family: 'Roboto', sans-serif;
+ }
+
+/* *************************************************************** */
+.widget-boxes {
+	margin: 30px 0;
+	text-align: center;
+	overflow: hidden;
+}
+.widget-boxes .box {
+	display: inline-block;
+	width: 370px;
+	overflow: hidden;
+	padding: 30px 1%;
+}
+.widget-boxes .box a:hover {
+	text-decoration: none;
+}
+
+.widget-boxes .box-info h2{
+	margin: 0 0 6px;
+	font-family: 'Gochi Hand', cursive;
+	font-size: 36px;
+}
+.box-image {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.box-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.widget-boxes .about h2{
+	color: #bfd04e;
+}
+.widget-boxes .experience h2{
+	color: #f09496;
+}
+.widget-boxes .fun h2{
+	color: #a1d7e4;
+}
+.widget-boxes .box-info p{
+	color: #9e9994;
+	line-height: 23px;
+}
+
+
+/* *************************************************************** */
+.orange-container {
+    background-color: #FFB265;
+    padding: 20px 100px 20px 100px;
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.block-event h2{
+	font-family: 'Gochi Hand', cursive;
+	font-size: 48px;
+	text-shadow: 2px 2px 3px rgba(22,22,23,0.11);
+	color: #ffffff;
+}
+.block-event h3 a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #464646;
+}
+.event-description .metadata{
+	padding: 18px 0;
+	color: #ffffff;
+}
+.event-description .metadata time {
+	padding-left: 25px;
+}
+.event-description .metadata span {
+	padding-left: 25px;
+	margin-left: 30px;
+}
+.event-description .metadata time span {
+	padding-left: 25px;
+	margin-left: 30px;
+}
+.event-description p{
+	line-height: 24px;
+}

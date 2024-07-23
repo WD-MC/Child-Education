@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_homepage" inherit_id="website.homepage" name="Home">
+        <xpath expr="//t[@t-call='website.layout']" position="replace">
+            <t t-call="website.layout">
+                <t t-set="pageName" t-value="'homepage'"/>
+                <div class="oe_structure"/>
+                <div id="wrap">
+                    <section class="s_cover parallax bg-black-50 pt96 pb96" data-scroll-background-ratio="1">
+                        <span class="s_parallax_bg oe_img_bg" style="background-image: url('/theme_yourHome/static/src/img/educ.jpg');"/>
+                        <div class="container s_allow_columns">
+                            <h1 style="text-align: center;"><font style="font-size: 62px; font-weight: bold;">Bon retour à l'école !</font></h1>
+                            <p class="lead" style="text-align: center;">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for <br/>previewing layouts and visual mockups.</p>
+                            <p style="text-align: center;">
+                                <a t-att-href="cta_btn_href" class="btn btn-success mb-2 mt-3 rounded-circle px-5 font-weight-medium"><t t-esc="cta_btn_text">Learn More</t></a>
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="title"> <h3 class="text-success">Qu'est ce que j'apprends!</h3></div>
+                        <div class="widget-boxes">
+                            <div class="box">
+                                <a href="#">
+                                    <div class="box-info about">
+                                        <div class="box-image">
+                                            <img src="/theme_yourHome/static/src/img/reading.jpg" alt="Monde des mots "/>
+                                        </div>
+                                        <h2>Monde des mots</h2>
+                                        <p>Enim ad minim veniam nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure dolor.</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="#">
+                                    <div class="box-info experience">
+                                        <div class="box-image">
+                                            <img src="/theme_yourHome/static/src/img/math2.png" alt="Our experience"/>
+                                        </div>
+                                        <h2>Royaume des maths</h2>
+                                        <p>Perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam aperiam eaque dolor lorem.</p>
+                                    </div>
+                                </a>
+                            </div>
+                             <div class="box">
+                                <a href="#">
+                                    <div class="box-info fun">
+                                        <div class="box-image">
+                                            <img src="/theme_yourHome/static/src/img/cultu.jpg" alt="Big fun for kids"/>
+                                        </div>
+                                        <h2>Quête culturelle</h2>
+                                        <p>Accusamus et iusto dignissimos ducimus blanditiis praesentium voluptatum deleniti corrupti quos dolores et quas molestias.</p>
+                                    </div>
+                                </a>
+                             </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="container-fluid orange-container">
+                            <div class="row">
+                                <div class="col-6 upcoming-event">
+                                    <div class="block-event">
+                                        <h2>April’s upcoming event</h2>
+                                        <div class="event-description">
+                                            <h3><a href="#">Libero tempore cum soluta nobis est eligendi optio cumque nihil</a></h3>
+                                            <div class="metadata">
+                                                <time datetime="2014-04-17T09:00">
+                                                    <i class="far fa-calendar-alt"> </i> 17.04.14
+                                                    <span> <i class="far fa-clock"> </i> 09:00 AM</span>
+                                                    <span> <i class="fas fa-map-marker-alt"> </i> Lorem ipsum dolor</span>
+                                                </time>
+                                            </div>
+                                            <p style="text-align: justify;">Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                                            <p style="text-align: justify;">Vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                                            <p style="text-align: start;">
+                                                <a t-att-href="cta_btn_href" class="btn btn-success mb-2 mt-3 rounded-circle px-5 font-weight-medium"><t t-esc="cta_btn_text">Participer</t></a>
+                                            </p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-6 ">
+                                    <img src="/theme_yourHome/static/src/img/kidsHelp.jpg" alt="Big fun for kids" class="img-responsive"/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>

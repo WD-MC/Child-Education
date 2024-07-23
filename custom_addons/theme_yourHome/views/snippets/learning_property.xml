@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="learning-property" name="Learning Property">
+        <section class="learning-property border-none company-visible">
+            <div class="container">
+                <div class="text-center py-5">
+                    <h2 class="h1">Outils d'évaluation</h2>
+                    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for <br/>previewing layouts and visual mockups.</p>
+                </div>
+
+                <div class="row pb-5">
+                    <div class="col text-center">
+                        <div class="agent-img-container rounded-circle mx-auto">
+                            <img class="object-fit rounded" src="/theme_yourHome/static/src/img/quiz2.jpg"/>
+                        </div>
+                        <a href="#"><h5 class="mb-0 mt-3">Quiz et test en ligne</h5></a>
+                        <div class="company-name">Tests chronométrés </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="agent-img-container rounded-circle mx-auto">
+                            <img class="object-fit rounded" src="/theme_yourHome/static/src/img/exoInteractif.png"/>
+                        </div>
+                        <a href="#"><h5 class="mb-0 mt-3">Exercices interactifs</h5></a>
+                        <div class="company-name">Utilisation de sélection multiple</div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="agent-img-container rounded-circle mx-auto">
+                            <img class="object-fit rounded" src="/theme_yourHome/static/src/img/portfolio.png"/>
+                        </div>
+                        <a href="#"><h5 class="mb-0 mt-3">Portfolio numérique </h5></a>
+                        <div class="company-name">Télécharger et présenter les travaux et projets accomplis</div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="agent-img-container rounded-circle mx-auto">
+                            <img class="object-fit rounded" src="/theme_yourHome/static/src/img/eval.jpg"/>
+                        </div>
+                        <a href="#"><h5 class="mb-0 mt-3">Évaluations formatives</h5></a>
+                        <div class="company-name">Questions à choix multiples ou à réponse courte</div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="agent-img-container rounded-circle mx-auto">
+                            <img class="object-fit rounded" src="/theme_yourHome/static/src/img/diagnostic.png"/>
+                        </div>
+                        <a href="#"><h5 class="mb-0 mt-3">Évaluations diagnostiques</h5></a>
+                        <div class="company-name">Evaluer le niveau de compétence des enfants</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

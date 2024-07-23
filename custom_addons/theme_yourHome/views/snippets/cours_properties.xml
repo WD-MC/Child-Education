@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="cours-properties" name="Cours Properties">
+        <section class="cours-properties">
+            <div class="title"> <h3 class="text-success">Qu'est ce que j'apprends!</h3></div>
+            <div class="widget-boxes">
+                <div class="box">
+                    <a href="#">
+                        <div class="box-info about">
+                            <div class="box-image">
+                                <img src="/theme_yourHome/static/src/img/reading.jpg" alt="Monde des mots "/>
+                            </div>
+                            <h2>Monde des mots</h2>
+                            <p>Enim ad minim veniam nostrud exercitation ullamco laboris nisi ut aliquip commodo consequat duis aute irure dolor.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <div class="box-info experience">
+                            <div class="box-image">
+                                <img src="/theme_yourHome/static/src/img/math2.png" alt="Our experience"/>
+                            </div>
+                            <h2>Royaume des maths</h2>
+                            <p>Perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium totam aperiam eaque dolor lorem.</p>
+                        </div>
+                    </a>
+                </div>
+                 <div class="box">
+                    <a href="#">
+                        <div class="box-info fun">
+                            <div class="box-image">
+                                <img src="/theme_yourHome/static/src/img/cultu.jpg" alt="Big fun for kids"/>
+                            </div>
+                            <h2>Quête culturelle</h2>
+                            <p>Accusamus et iusto dignissimos ducimus blanditiis praesentium voluptatum deleniti corrupti quos dolores et quas molestias.</p>
+                        </div>
+                    </a>
+                 </div>
+            </div>
+        </section>
+    </template>
+</odoo>
